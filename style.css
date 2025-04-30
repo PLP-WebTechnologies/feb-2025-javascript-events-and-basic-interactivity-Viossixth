@@ -1,0 +1,323 @@
+
+
+/*Nav section*/
+nav,
+.nav-links{
+display:flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-title{
+    text-align: left;
+    font-size: 2rem;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: antiquewhite;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181,181);
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+
+/*Home section*/
+#Home{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.home-pic{
+    width: 45%;
+}
+
+.home-pic img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.home-text{
+    text-align: left;
+    font-size: 2.5rem;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.home-title{
+    font-size: 3rem;
+    text-align: center;
+    text-align: left;
+}
+
+.home-textp1{
+    text-align: right;
+}
+
+*ABOUT*/
+/*BIOGRAPHY SECTION*/
+#About{
+   
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-pic{
+    width: 45%;
+}
+
+.about-pic img{
+    margin-top: 40px;
+    width: 100;
+    height: auto;
+    max-width: 80%;
+}
+
+.about-text{
+    text-align: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.Skills-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-text-p1{
+    font-size: large;
+    text-align: left;
+}
+
+
+/*Gallery section*/
+#Gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 225, 225);
+}
+
+
+.gallery-color-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 300px; /* or whatever max size you want */
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* optional: nice rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: slight shadow */
+    transition: transform 0.3s ease; /* smooth hover animation */
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/*Menu*/
+
+  .accordion-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.accordion {
+    background-color: #ffffff;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%; /* full width of the container */
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordion-text{
+    text-align: center;
+}
+
+
+
+/*Reservation*/
+#Reservation{
+    margin-top: 40px;
+    height: 200px;
+margin: 0 auto;
+padding: 20px;
+
+}
+
+.reservation-title{
+    font-size: large;
+    text-align: center;
+}
+
+.reservation-text{
+    text-align: center;
+}
+
+.reservation-form{
+    text-align: center;
+    background-image: image()
+}
+
+/*Join Us*/
+#Join Us{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.join-us-text{
+    text-align: center;
+}
+
+.membership-form{
+    text-align: center;
+}
+
+#length{
+    text-align: center;
+}
+
+.invalid{
+    text-align: center;
+}
+
+/*Footer Section*/
+
+footer{
+    height: 25vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+  .nav-links-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 0 1 rem;
+  }
+  
+  
+  .contact-info {
+    display: flex;
+    gap: 30px; /* Space between contact items */
+    text-align: center;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-info img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+
+  #footer-telephone:hover {
+    transform: scale(1.05);
+}
+
+#footer-mail:hover {
+    transform: scale(1.05);
+}
+
+#footer-location:hover {
+    transform: scale(1.05);
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}

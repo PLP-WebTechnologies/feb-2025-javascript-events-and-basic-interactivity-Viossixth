@@ -18,20 +18,20 @@ Welcome to the **ultimate JavaScript playground**! 🎉 This assignment is where
 Here’s what your interactive bundle of joy should include:
 
 ### 1. Event Handling 🎈  
-- Button click ✅  
-- Hover effects ✅  
-- Keypress detection ✅  
+- Button click ✅  DONE!
+- Hover effects ✅  Done!
+- Keypress detection ✅  DONE!
 - Bonus: A secret action for a *double-click* or *long press* 🤫
 
 ### 2. Interactive Elements 🎮  
-- A button that changes text or color  
-- An image gallery or slideshow  
-- Tabs or accordion-style content  
+- A button that changes text or color  DONE!
+- An image gallery or slideshow  Done!
+- Tabs or accordion-style content  Done!
 - Bonus: Add some animation using JS or CSS ✨
 
 ### 3. Form Validation 📋✅  
-- Required field checks  
-- Email format validation  
+- Required field checks  DONE!
+- Email format validation  DONE!
 - Password rules (e.g., min 8 characters)  
 - Bonus: Real-time feedback while typing
 
